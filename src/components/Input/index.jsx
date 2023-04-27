@@ -16,7 +16,6 @@ const Input = ({onInputChange}) => {
         try {
             const response = await fetch(`${geoApiUrl}?minPopulation=1000000&namePrefix=${inputData}`, geoApiOptions)
             const result = await response.json();
-            console.log(result)
             return {
                 options: result.data.map((city) => {
                     return {

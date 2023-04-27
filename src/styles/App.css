@@ -1,15 +1,15 @@
 .App {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.5ms;
+  background-image: url('../../public/images/bg-opt.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container{
+  margin: 0px auto;
   width: 100%;
   max-width: 1000px;
-  height: 100%;
   padding-top: 50px;
 }

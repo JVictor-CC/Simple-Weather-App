@@ -1,0 +1,60 @@
+.forecast-container{
+    background-color: #d3d3d3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.forecast-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.next-days{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px #797878;
+    background-color: #f8f7f7;
+    border-radius: 5px;
+    padding-inline: 15px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.next-days:hover{
+    background-color: rgb(228, 218, 218);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.icon{
+    width: 50px;
+}
+
+.days{
+    display: flex;
+    font-weight: 600;
+}
+
+.next-days-details{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+
+.details-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-title{
+    font-size: 14px;
+}
+
+.item-value{    
+    font-size: 15px;
+    font-weight: 600;
+}
